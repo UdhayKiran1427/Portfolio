@@ -28,7 +28,7 @@ const projects = [
     image: dp,
     tech: "React • Tailwind • GSAP",
     live: "#",
-    github: "#"
+    github: "https://github.com/UdhayKiran1427/Portfolio"
   }]
 const Projects = () => {
   return (
