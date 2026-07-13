@@ -25,15 +25,17 @@ const About = () => {
   const toolsSkills = [
     { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
     { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-    { name: "Postman", icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" }
+    { name: "Postman", icon: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
+    { name: "Vercel", icon: "https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" },
+    { name: "Render", icon: "https://cdn-1.webcatalog.io/catalog/render/render-icon-filled-256.png?v=1714775659827" },
   ]
     const data=[
         {
             title:"Introduction",
-            content:"Hi, I’m Sumita Nagotha. I’m a MERN stack developer who enjoys building responsive, user-friendly web applications and continuously improving my skills."
+            content:"Hi, I’m Udhay Kiran Ande. I’m a MERN stack developer who enjoys building responsive, user-friendly web applications and continuously improving my skills."
         },{
             title:"Education",
-            content:"Completed BCA at Maharaja Krishnakumarsighji Univercity with 8 CGPA"
+            content:"Completed MCA at Veer Narmad South Gujarat University."
         },{
   title: "Skills",
   content: (

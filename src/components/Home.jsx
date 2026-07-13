@@ -1,5 +1,5 @@
 import React from "react";
-import sumi from "../assets/images/sumi.jpg";
+import sumi from "../assets/images/Udhay_Image.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -76,7 +76,7 @@ animate-[bubble_10s_linear_infinite]"
           className="text-2xl md:text-4xl font-bold tracking-wider
           bg-gradient-to-r from-pink-300 via-purple-300 to-orange-300
           bg-clip-text text-transparent drop-shadow-lg">
-          Sumita Nagotha
+          Udhay Kiran Ande
         </h2>
 
         {/* ROLE */}

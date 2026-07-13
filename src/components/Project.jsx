@@ -1,30 +1,31 @@
 import React from "react"
 import prdDash from "../assets/images/prdDash.png"
-import mac from "../assets/images/mac.png"
+import mac from "../assets/images/AIinterview.png"
+import dp from "../assets/images/Dp.png"
 import { Link } from "react-router-dom"
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
   {
-    title: "Productivity Dashboard Website",
-    description: "A responsive productivity dashboard that helps users organize tasks, track progress, and manage daily activities.",
+    title: "E-Learning Platform",
+    description: "A responsive e-learning platform that helps users access courses, track progress, and manage their learning journey.",
     image: prdDash,
-    tech: "Javascript • Tailwind",
-    live: "https://productivity-dashboard-33bz.onrender.com/",
-    github: "https://github.com/Sumi-ahir/PRODUCTIVITY_DASHBOARD"
+    tech: "Javascript • Tailwind • React • Node.js • Express • MySql",
+    live: "https://e-learning-platform-woad.vercel.app/",
+    github: "https://github.com/UdhayKiran1427/E-learning-platform"
   },
   {
-    title: "Mac Style Developer Portfolio",
-    description: "A modern portfolio website designed with a macOS style interface. It highlights my projects and skills through a simple layout and interactive user experience.",
+    title: "AI Interviewer",
+    description: "An AI-powered interview platform that simulates real-time interviews and provides instant feedback.",
     image: mac,
-    tech: "React • Scss ",
-    live: "#",
-    github: "#"
+    tech: "React • Scss • Node.js • Express • MongoDBx`",
+    live: "https://interview-ai-5gy9.vercel.app/",
+    github: "https://github.com/UdhayKiran1427/Interview-AI"
   },
   {
     title: "Portfolio Website",
     description: "Animated developer portfolio",
-    image: "/projects/portfolio.png",
+    image: dp,
     tech: "React • Tailwind • GSAP",
     live: "#",
     github: "#"

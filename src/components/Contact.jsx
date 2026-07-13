@@ -7,10 +7,10 @@ const Contact = () => {
   const sendEmail=(e)=>{
     e.preventDefault();
     emailjs.sendForm(
-      "service_bg1wszc",//service ID
-      "template_2499lfo",//template ID
+      "service_fosqa3y",//service ID
+      "template_9v9d1f1",//template ID
       e.target,
-      "LSMkbvPp-5RXuSgrC"//public key
+      "fuDijJCq0aLwhSvYH"//public key
     )
     .then(()=>{
       alert("Got your message. I’ll connect with you soon. !")
@@ -210,20 +210,20 @@ const Contact = () => {
             <p className='text-gray-400' style={{marginTop:"0.7rem"}}>Got an idea? <br/>If you have a project in mind, feel free to reach out. I’d be happy to discuss it.</p>
             {/* SOCIAL */}
             <div className='flex gap-3' style={{marginTop:"0.9rem"}}>
-                <a href="https://github.com/Sumi-ahir"
+                <a href="https://github.com/UdhayKiran1427"
                 target='_blank'
                  className="bg-white/10 rounded-lg hover:scale-110 hover:text-gray-300 transition" style={{padding:"6px"}}
                 >
                  <FaGithub className='text-2xl text-[#0e0e0ef1]'/>
                 </a>
-                <a  href="https://www.linkedin.com/in/sumi-ahir-38b57b3b8/"
+                <a  href="https://www.linkedin.com/in/udhay-kiran-ande/"
                 target='_blank'
                  className="bg-white/10 rounded-lg  hover:scale-110 hover:text-gray-300 transition" style={{padding:"6px"}}
                  >
                  <FaLinkedin className='text-2xl text-[#0e0e0ef1]' />
                 </a>
                 <a  target='_blank'
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=sumi.sparkal@gmail.com"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=udhaykiranande@gmail.com"
   className="bg-white/10 rounded-lg hover:scale-110 transition"
   style={{ padding: "6px" }}
 >
